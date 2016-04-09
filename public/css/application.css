@@ -1,0 +1,264 @@
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+/* Registration section on top of every page*/
+.register-section {
+  padding: 15px;
+}
+
+#welcome-section {
+  padding: 2px 6px 2px 6px;
+  margin: 10px;
+}
+
+#welcome-user {
+  color: white;
+  margin: 10px;
+  display: inline;
+}
+/* Change registration link to look like button*/
+.register-section a {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+/*  Body Section */
+#body-container {
+  margin: -20px -10px 0px -10px;
+  height: 100%;
+  position: relative;
+}
+
+#body-left-container {
+  display:table-row;
+  float: left;
+  width: 30%;
+  height: 100%;
+  padding: 40px 0px 40px 40px;
+  background-color: #3ea937;
+  line-height: 2.5em;
+}
+
+#body-right-container {
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+
+/* All Tabs */
+.tabs-menu {
+  height: 30px;
+  float: left;
+  clear: both;
+  padding: 0;
+  outline: 0;
+}
+
+.tabs-menu li {
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-right: 5px;
+  background-color: #4cb343;
+  list-style-type: none;
+}
+
+.tabs-menu li.current {
+  position: relative;
+  background-color: #4cb343;
+  border-bottom: 3px solid #2e8926;
+  z-index: 5;
+}
+
+.tabs-menu li a {
+  padding: 10px;
+  text-transform: uppercase;
+  color: #2e7da3;
+  text-decoration: none;
+  outline: 0;
+}
+
+.tabs-menu .current a {
+  color: #fff;
+}
+
+.tab {
+  /*border: 1px solid #d4d4d1;*/
+  background-color: #3ea937;
+  float: left;
+  /*margin-bottom: 20px;*/
+  width: auto;
+}
+
+.tab-content {
+  width: 300px;
+  /*padding: 20px;*/
+  display: none;
+}
+
+#tab-1 {
+ display: block;
+}
+
+/* Direction Tab */
+#from-link, #to-link, #pos-from-link {
+  font-size: 12px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#calculate-route {
+  width: 100%;
+}
+
+.button-0 {
+  position: relative;
+  padding: 10px 10px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #444444;
+  border-bottom: 5px solid #444444;
+  text-shadow: 0px -2px #444444;
+  /* Animation */
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.button-0:hover,
+.button-0:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-0:active {
+  transform: translate(0px,1px);
+  -webkit-transform: translate(0px,1px);
+  border-bottom: 1px solid;
+}
+
+#button-1 {
+  margin-top: 20px;
+}
+input.search {
+  background-image:url(../imgs/search2.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  display: block;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  padding-left:30px;
+  width:320px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  /* For I.E */
+  -moz-box-shadow:0 0 10px;
+  /* For Mozilla Web Browser*/
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  /* For I.E */
+  -moz-border-radius:5px
+  /* For Mozilla Web Browser*/
+}
+
+.signup-container {
+  margin: 150px 0px 0px 450px;
+}
+
+input#fname, input#lname{
+  background-image:url(../imgs/fname.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  display: block;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  padding-left:35px;
+  margin: 30px;
+  width:250px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  /* For I.E */
+  -moz-box-shadow:0 0 10px;
+  /* For Mozilla Web Browser*/
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  /* For I.E */
+  -moz-border-radius:5px
+  /* For Mozilla Web Browser*/
+}
+
+input#email {
+  background-image:url(../imgs/email.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  display: block;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  padding-left:35px;
+  margin: 30px;
+  width:250px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  /* For I.E */
+  -moz-box-shadow:0 0 10px;
+  /* For Mozilla Web Browser*/
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  /* For I.E */
+  -moz-border-radius:5px
+  /* For Mozilla Web Browser*/
+}
+
+input#password {
+  background-image:url(../imgs/pass.png);
+  background-repeat:no-repeat;
+  background-position:6px;
+  display: block;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  padding-left:35px;
+  margin: 30px;
+  width:250px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  /* For I.E */
+  -moz-box-shadow:0 0 10px;
+  /* For Mozilla Web Browser*/
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  /* For I.E */
+  -moz-border-radius:5px
+  /* For Mozilla Web Browser*/
+}
+
+input#submit{
+  background-color:#3ea937;
+  border-radius:5px;
+  border:none;
+  padding:10px 25px;
+  color:#FFF;
+  text-shadow:1px 1px 1px #949494;
+  margin-left:100px;
+}
+
+input#submit:hover{
+  background-color:#80A24A
+}
+
