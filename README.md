@@ -1,2 +1,2 @@
-# Mr.Navigator
-A navigation app to get direction from point A to B using Google API
+# Eviction Mapper
+A tool to search San Francisco for no-fault evictions by neighborhood
